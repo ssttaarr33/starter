@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jboss-web>
+  <context-root>/start</context-root>
+  <security-domain>other</security-domain>
+  <!--<security-domain>java:/jaas/other</security-domain>-->
+  
+  
+  
+  <resource-ref>
+    <res-ref-name>jdbc/dmDB</res-ref-name>
+    <res-type>javax.sql.DataSource</res-type>
+    <jndi-name>java:/jdbc/dmDB</jndi-name>
+  </resource-ref>
+</jboss-web>
